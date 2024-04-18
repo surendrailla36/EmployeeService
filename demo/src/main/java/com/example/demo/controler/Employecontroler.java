@@ -18,9 +18,9 @@ public String greeting() {
 
 }
 
-@PostMapping("/employee")
-public String saveEmployee(@RequestBody Employee employee){
-	return "Reached controler and name ="+employee.getEMP_Name();
+@PostMapping("/employe")
+public String saveEmployee(@RequestBody Employee employe){
+	return "Reached controler and name ="+employe.getEMP_Name();
 
 }
 
